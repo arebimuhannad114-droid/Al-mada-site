@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Mada - دعاية و إعلام</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", "Cairo", sans-serif;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      line-height: 1.6;
+      direction: rtl;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      border-bottom: 3px solid #ff6600;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff6600;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff6600;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      text-align: center;
+    }
+
+    .service-box {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #333;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+      border-color: #ff6600;
+    }
+
+    .service-box h3 {
+      color: #ff6600;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .service-box p {
+      color: #ccc;
+      font-size: 1rem;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .contact span {
+      color: #ff6600;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: #111;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header p {
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
+      .service-box {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Al Mada</h1>
+    <p>رؤيتك... إبداعنا</p>
+  </header>
+
+  <section id="services">
+    <h2>خدماتنا | Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>إعلانات الطرق | Outdoor Advertising</h3>
+        <p>تصميم وتركيب لوحات الطرق والإعلانات الخارجية بجودة عالية.</p>
+      </div>
+      <div class="service-box">
+        <h3>تصميم الجرافيك | Graphic Design</h3>
+        <p>إبداع في تصميم الشعارات والهويات البصرية الإحترافية.</p>
+      </div>
+      <div class="service-box">
+        <h3>إعلانات رقمية | Digital Marketing</h3>
+        <p>حملات تسويقية عبر الإنترنت للوصول إلى جمهورك المستهدف.</p>
+      </div>
+      <div class="service-box">
+        <h3>إنتاج الفيديو | Video Production</h3>
+        <p>تصوير وإنتاج فيديوهات دعائية وتسويقية بجودة احترافية.</p>
+      </div>
+      <div class="service-box">
+        <h3>الطباعة الإعلانية | Printing Services</h3>
+        <p>خدمات طباعة لافتات، بنرات، وكروت أعمال بأحدث التقنيات.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا | Contact Us</h2>
+    <div class="contact">
+      <p><span>📱 واتساب:</span> 0915900048</p>
+      <p><span>☎ الهاتف:</span> 0945305471</p>
+      <p><span>📍 العنوان:</span> طرابلس - ليبيا</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Al Mada. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
