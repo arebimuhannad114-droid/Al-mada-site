@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Al Mada - دعاية و إعلام</title>
+  <title>دعاية و إعلان</title>
+  <meta name="description" content="دعاية و إعلان - خدمات إعلانات الطرق، تصميم الجرافيك، التسويق الرقمي، إنتاج الفيديو والطباعة في طرابلس.">
+  <meta name="keywords" content="دعاية, إعلان, طرابلس, تصميم, تسويق, طباعة, فيديو">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     * {
       margin: 0;
@@ -21,20 +27,34 @@
 
     header {
       text-align: center;
-      padding: 80px 20px 40px;
+      padding: 60px 20px 30px;
       background: linear-gradient(135deg, #000000, #1a1a1a);
-      border-bottom: 3px solid #ff6600;
+      border-bottom: 3px solid #4169e1;
     }
 
     header h1 {
       font-size: 3rem;
-      color: #ff6600;
+      color: #4169e1;
       margin-bottom: 10px;
     }
 
     header p {
       font-size: 1.5rem;
       color: #ffffff;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #4169e1;
     }
 
     section {
@@ -45,7 +65,7 @@
 
     h2 {
       text-align: center;
-      color: #ff6600;
+      color: #4169e1;
       margin-bottom: 30px;
       font-size: 2rem;
     }
@@ -67,11 +87,11 @@
 
     .service-box:hover {
       transform: translateY(-5px);
-      border-color: #ff6600;
+      border-color: #4169e1;
     }
 
     .service-box h3 {
-      color: #ff6600;
+      color: #4169e1;
       margin-bottom: 10px;
       font-size: 1.3rem;
     }
@@ -79,6 +99,11 @@
     .service-box p {
       color: #ccc;
       font-size: 1rem;
+    }
+
+    .service-box i {
+      color: #4169e1;
+      margin-bottom: 10px;
     }
 
     .contact {
@@ -91,8 +116,16 @@
     }
 
     .contact span {
-      color: #ff6600;
+      color: #4169e1;
       font-weight: bold;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      color: #4169e1;
     }
 
     footer {
@@ -122,30 +155,39 @@
 </head>
 <body>
   <header>
-    <h1>Al Mada</h1>
+    <h1>دعاية و إعلان</h1>
     <p>رؤيتك... إبداعنا</p>
+    <nav>
+      <a href="#services">خدماتنا</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
   </header>
 
   <section id="services">
     <h2>خدماتنا | Our Services</h2>
     <div class="services">
       <div class="service-box">
+        <i class="fas fa-bullhorn fa-2x"></i>
         <h3>إعلانات الطرق | Outdoor Advertising</h3>
         <p>تصميم وتركيب لوحات الطرق والإعلانات الخارجية بجودة عالية.</p>
       </div>
       <div class="service-box">
+        <i class="fas fa-paint-brush fa-2x"></i>
         <h3>تصميم الجرافيك | Graphic Design</h3>
         <p>إبداع في تصميم الشعارات والهويات البصرية الإحترافية.</p>
       </div>
       <div class="service-box">
+        <i class="fas fa-bullseye fa-2x"></i>
         <h3>إعلانات رقمية | Digital Marketing</h3>
         <p>حملات تسويقية عبر الإنترنت للوصول إلى جمهورك المستهدف.</p>
       </div>
       <div class="service-box">
+        <i class="fas fa-video fa-2x"></i>
         <h3>إنتاج الفيديو | Video Production</h3>
         <p>تصوير وإنتاج فيديوهات دعائية وتسويقية بجودة احترافية.</p>
       </div>
       <div class="service-box">
+        <i class="fas fa-print fa-2x"></i>
         <h3>الطباعة الإعلانية | Printing Services</h3>
         <p>خدمات طباعة لافتات، بنرات، وكروت أعمال بأحدث التقنيات.</p>
       </div>
@@ -155,14 +197,14 @@
   <section id="contact">
     <h2>تواصل معنا | Contact Us</h2>
     <div class="contact">
-      <p><span>📱 واتساب:</span> 0915900048</p>
-      <p><span>☎ الهاتف:</span> 0945305471</p>
+      <p><span>📱 واتساب:</span> <a href="https://wa.me/218915900048" target="_blank">0915900048</a></p>
+      <p><span>☎ الهاتف:</span> <a href="tel:+218945305471">0945305471</a></p>
       <p><span>📍 العنوان:</span> طرابلس - ليبيا</p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Al Mada. جميع الحقوق محفوظة.</p>
+    <p>© 2025 دعاية و إعلان. جميع الحقوق محفوظة.</p>
   </footer>
 </body>
 </html>
